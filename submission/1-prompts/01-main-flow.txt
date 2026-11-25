@@ -1,0 +1,19 @@
+Build a mobile prototype for a recent graduate job seeker named Maya to find her best-matching job and apply to it with an AI-tailored resume. The app is called CareerPilot, an AI job search assistant. Match the attached screenshots as closely as you can.
+
+Create these screens in order:
+
+1. Home: greeting "Welcome back, Maya", a dark hero card saying "12 new jobs" with a "See your matches" button, two tiles for resume score and interview readiness, a "Suggested next step" card, a "Top match for you" job card, and a bottom tab bar with Home, Jobs, Tracker, Coach and Resume.
+
+2. Jobs: title "Find jobs", a search field, filter chips (All, Remote, Full-time, Internship, Saved), and job cards sorted by match percentage. Each card shows a monogram logo, company, job title, location, job type, salary, a circular match score and a bookmark button. Tapping a card opens Job details.
+
+3. Job details: back button, company and title, a compatibility card with a large circular score and bars for Skills, Experience and Location, "Why you match" skill chips, a "Skill gaps" list with an AI tip for each gap, an "About the role" section, and a sticky "Apply with CareerPilot" button at the bottom.
+
+4. Review application: job summary, a Resume card with a "Tailor for this role" switch, an AI-drafted note to the hiring team that can be edited or regenerated, contact details, and a sticky "Submit application" button.
+
+5. Application sent: a large check mark in a lime circle, the heading "Application sent", a short timeline (Application sent, Added to your tracker, Reply from the hiring team), and two buttons: "Track application" and "Practice for the interview".
+
+6. Tracker: applications grouped into four stages with counts: Saved, Applied, Interview, Offer. The job Maya just applied to appears under Applied with a "New" tag.
+
+Connect the main buttons so the flow works from Home to Tracker. When the task is complete, show the "Application sent" confirmation, and then show that job in the Applied stage of the Tracker.
+
+Style: clean and modern. Warm off-white background (#F4F2EC), white cards with large rounded corners, near-black (#0F0F12) primary buttons, lime (#C8F25C) for the hero button and the active tab, violet (#5B47F5) for anything AI, green (#12825A) for high match scores. Font: Plus Jakarta Sans. Use fictional company names (Northwind Labs, Lumen Health, Orbit Pay, Fernway, Kitebase, Halcyon Studio) with simple monogram logos and no real brands. The prototype must work without sign-in, using sample data only.

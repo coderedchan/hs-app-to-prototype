@@ -1,0 +1,5 @@
+Add the Resume tab, matching the attached screenshot.
+
+Show a card with a circular resume score out of 100 next to the file name "Maya_Chen_Resume.pdf" and a line saying how many fixes are left. Below it, a "What's working" list with three green check items, then an "AI suggestions" list with three cards: "Quantify your capstone result" (+5 pts), "Add missing keywords" (+4 pts) and "Sharpen your summary" (+3 pts). Each card shows the before text, an arrow and the improved text, with an "Apply fix" button.
+
+Tapping "Apply fix" marks that suggestion as applied, strikes through the before text and raises the resume score by its points. The resume score on Home updates too.

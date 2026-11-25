@@ -1,0 +1,34 @@
+/* Design tokens. Tailwind v4 turns each one into utilities (bg-ink, text-mute, ...). */
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  /* Surfaces */
+  --color-backdrop: #dedbd2;
+  --color-paper: #f4f2ec;
+  --color-card: #ffffff;
+  --color-line: #e6e3db;
+
+  /* Text */
+  --color-ink: #0f0f12;
+  --color-ink-soft: #2a2a30;
+  --color-mute: #6d6b66;
+
+  /* Brand: ink + lime for "match", violet for AI */
+  --color-lime: #c8f25c;
+  --color-accent: #5b47f5;
+  --color-accent-soft: #eceaff;
+
+  /* Status */
+  --color-good: #12825a;
+  --color-good-soft: #e0f4ea;
+  --color-warn: #a86a00;
+  --color-warn-soft: #fbefd3;
+  --color-low: #6d6b66;
+  --color-low-soft: #ecebe6;
+
+  /* Coach (dark) surfaces */
+  --color-night: #0c0b1a;
+  --color-night-card: #17152b;
+  --color-night-line: #2a2748;
+  --color-night-mute: #a5a2c4;
+}

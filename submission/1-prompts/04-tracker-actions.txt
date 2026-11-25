@@ -1,0 +1,7 @@
+Make the Tracker cards interactive.
+
+- Cards in Applied get a "Got an interview" button that moves the card to the Interview stage. Cards in Interview get a "Got an offer" button that moves the card to Offer. After moving, switch to the new stage so the change is visible.
+- Cards in Interview also get a violet "Practice" button that opens the Coach tab.
+- Cards in Saved get an "Apply now" button that opens Review application for that job.
+- Tapping the top of any card opens its Job details. If the job was already applied to, the bottom button on Job details says "View in tracker" instead of "Apply with CareerPilot".
+- The bookmark button on a job card adds the job to Saved, and tapping it again removes it. An empty stage shows a short message and a "Find jobs" button.

@@ -1,0 +1,7 @@
+Add the Coach tab with a dark theme (background #0C0B1A), matching the attached screenshots.
+
+Coach screen: heading "Choose your coach", an interview readiness card with a percentage and progress bar, and three selectable coach cards, each with a glowing gradient orb: Nora (Behavioral, Medium, 6 min), Theo (Portfolio review, Hard, 8 min) and Iris (Design challenge, Hard, 10 min). A "Start session with [coach name]" button starts the session.
+
+Session screen: "Question 1 of 3" with a timer and progress bar, the question in large text, a tip chip, and a large round microphone button. Tapping the microphone simulates a spoken answer by revealing a transcript word by word that starts with "You:". Show "Skip" and "Next question" buttons. "Next question" is enabled once the answer is recorded. On the last question the button says "See my insights".
+
+Performance insights screen: a large gradient score such as 78%, a line saying how many questions were answered, and four cards rated out of 10 with a bar and one sentence of feedback each: Clarity, Structure, Relevance, Confidence. Buttons: "Retry" restarts the session and "Done" returns to Home. Finishing a session raises the interview readiness shown on Home and on the Coach tab.
