@@ -15,6 +15,16 @@ npm run build:single   # rebuild submission/4-demo/CareerPilot.html (one file, o
 
 On a phone the app fills the screen. On a desktop it is shown inside a phone frame.
 
+## Deploy to Render
+
+The repo includes `render.yaml`, so Render can set everything up from the GitHub repo.
+
+1. Push the project to GitHub.
+2. In the Render dashboard choose **New → Blueprint** and connect the repo. Render reads `render.yaml` and creates a free static site.
+3. When the deploy finishes, open the `onrender.com` URL it shows. Every later push to `main` redeploys.
+
+To set it up by hand instead, choose **New → Static Site** with build command `npm ci && npm run build` and publish directory `dist`. The Node version comes from `engines` in `package.json`.
+
 ## The main task
 
 **Maya, a recent design graduate, finds her best-matching job and applies to it.**
@@ -34,6 +44,7 @@ hs-prototype/
 │   └── references/               Inspiration screenshots and notes
 ├── submission/                   Submission kit: prompts, screenshots, text, demo file
 ├── scripts/                      Build script for the single-file demo
+├── render.yaml                   Render deploy settings (static site)
 ├── index.html                    Page shell and font loading
 ├── public/                       Static files (favicon)
 └── src/

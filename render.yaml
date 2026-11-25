@@ -1,0 +1,13 @@
+# Render Blueprint: deploys the prototype as a free static site.
+# https://render.com/docs/blueprint-spec
+services:
+  - type: web
+    name: careerpilot-prototype
+    runtime: static
+    buildCommand: npm ci && npm run build
+    staticPublishPath: ./dist
+    headers:
+      # Built files have a content hash in their name, so they can be cached for a year.
+      - path: /assets/*
+        name: Cache-Control
+        value: public, max-age=31536000, immutable
